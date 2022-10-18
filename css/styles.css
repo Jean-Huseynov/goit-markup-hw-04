@@ -291,7 +291,14 @@ padding: 10px 32px;
 
 
 
-/* Наші переваги */
+/* --- Наші переваги --- */
+/* section */
+.benefits {
+    padding: 0;
+    padding-top: 94px;
+}
+
+/* div */
 .benefits-container {
     display: flex;
     width: 1200px;
@@ -299,11 +306,7 @@ padding: 10px 32px;
     margin: 0px auto;
 }
 
-.benefits {
-    padding: 0;
-    padding-top: 94px;
-}
-
+/* h2 */
 .benefits .our-advantages {
     display: flex;
     margin: 0px;
@@ -345,11 +348,12 @@ margin-top: 10px;
     color: var(--primary-text-color);
 }
 
-
+/* ul */
 .benefits .card-set {
     display: flex;
 }
 
+/* li */
 .benefits .item {
     flex-basis: calc((100% - 50px) / 4);
 }
@@ -359,9 +363,7 @@ margin-top: 10px;
 }
 
 
-
-
-
+/* span */
 .card-set-block {
     display: block;
         content: "";
@@ -375,6 +377,7 @@ margin-top: 10px;
         background-position: center;
 }
 
+/* svg */
 .card-set-img {
     display: flex;
         height: 70px;
@@ -390,7 +393,7 @@ margin-top: 10px;
 
 
 
-/* Чим ми займаємося h3 */
+/* --- Чим ми займаємося h3 --- */
 .services {
     padding: 0;
     padding-top: 94px;
@@ -427,7 +430,7 @@ margin: 0px 0px 50px 0px;
 
 
 
-/* Наша команда */
+/* --- Наша команда --- */
 .team {
     background: #F5F4FA;
     padding: 94px 0;
@@ -558,7 +561,7 @@ padding: 30px 0px 30px 0px;
 
 
 
-< !-- Постійні клієнти Regular customers -->
+/* --- Постійні клієнти Regular customers --- */
 
 .regular-customers {
     padding: 94px 0px;
@@ -601,15 +604,22 @@ padding: 30px 0px 30px 0px;
 /* li */
 .customers-icon-section {
     display: flex;
+    height: 92px;
+        width: 170px;
     margin: 0px;
-    border: 1px solid #AFB1B8;
     border-radius: 4px;
     justify-content: center;
-width: calc((100%-150px)/6);
+    border: 1px solid #AFB1B8;
+
 }
 .customers-icon-section:hover,
 .customers-icon-section:focus {
-    border: 1px solid #2196F3
+    border: 1px solid #2196F3;
+}
+
+.customers-icon-section:hover .customers-icon,
+.customers-icon-section:focus .customers-icon {
+    fill: #2196F3;
 }
 
 /* a */
@@ -625,10 +635,6 @@ width: calc((100%-150px)/6);
     display: flex;
     fill: #AFB1B8;
 }
-.customers-icon:hover,
-.customers-icon:focus {
-    fill: #2196F3;
-}
 
 
 
@@ -636,12 +642,7 @@ width: calc((100%-150px)/6);
 
 
 
-
-
-
-
-
-/* Footer */
+/* --- Footer --- */
 
 .footer {
     display: flex;
@@ -789,7 +790,6 @@ margin-top: 20px;
 
 
 /* smm icon */
-
 /* li */
 .footer-icon-block-smm:hover,
 .footer-icon-block-smm:focus {
@@ -831,7 +831,7 @@ margin-top: 20px;
 
 
 
-/* PORTFOLIO */
+/* --- PORTFOLIO --- */
 /* button */
 .portfolio {
 padding: 94px 0px 94px 0px;
